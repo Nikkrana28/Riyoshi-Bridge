@@ -9,9 +9,17 @@ export const getROUTERContract = async () => {
     return routercontract;
 }
 
-export const SaleNFTItem = async(tokenAddress,tokenID,price) => {
+export const outunderlying = async(anyToken, to, amount, toChainID) => {
     const routercontract = await getROUTERContract();
-    var getData = await routercontract.methods.createItemForSale(tokenAddress,tokenID,price).send({
+    var getData = await routercontract.methods.anySwapOutUnderlying(anyToken, to, amount, toChainID).send({
+        from: await getAccount(),
+    });;
+    return getData
+}
+
+export const inunderlying = async(anyToken, to, amount, toChainID) => {
+    const routercontract = await getROUTERContract();
+    var getData = await routercontract.methods.anySwapInUnderlying(anyToken, to, amount, toChainID).send({
         from: await getAccount(),
     });;
     return getData

@@ -63,7 +63,6 @@ function Bridge() {
               className="inputbox"
               type="number"
               placeholder="0.0"
-              value="Submit"
             />
             <h5 style={{ paddingTop:'13px',fontWeight:'20px'}}>RYOSHI</h5>
           </div>
