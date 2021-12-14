@@ -1,0 +1,6 @@
+export const envdev = {
+    // ADDRESS
+    Router: '0x6b7a87899490EcE95443e979cA9485CBE7E71522',
+    anyRYOSHI_on_BSC: '0x91648237A47585242f1f8Ad10e84DD03fa95EC4E',
+    anyRYOSHI_on_ETHEREUM:''
+}

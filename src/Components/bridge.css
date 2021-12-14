@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    color: white;
+}
+.bridge_class {
+    display: grid;
+    align-items: center;
+    background-color: #2E2E2E;
+    border-radius: 8px;
+}
+
+.top_bridge_class {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.app_header{
+    align-self: center;
+    text-align: center;
+    background-color: transparent;
+    vertical-align: middle;
+    width: 500px;
+    height: 50px;
+    border-radius: 8px 8px 0 0;
+}
+
+.chain_changing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.amount_ender{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 30px;
+}
+.inner_amount_ender{
+    height: 60px;
+    text-align: center;
+    display: flex;
+    padding: 3px;
+    vertical-align: middle;
+    border-radius: 10px;
+    background-color: #353535;
+}
+.inputbox{
+    width: 300px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.transfer_btn{
+    padding: 10px;
+    text-align: center;
+}
+.btn_tran{
+    color: #f2ca66;
+    background-color: #1C1C1C;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #f2ca66;
+    width: 400px;
+    height: 50px;
+}
+hr.solid {
+    border: 0.1px solid rgb(128, 128, 128);
+    width: 500px;
+  }
+
+.binance{
+    display: flex;
+    gap:7px
+}
+.ethereum{
+    display: flex;
+    gap:7px
+}
+.header{
+    box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 1.75);
+}
+.home_btn{
+    color: #f2ca66;
+    background-color: #1C1C1C;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #f2ca66;
+    width: 100px;
+    height: 40px;
+}
+
+.home_btn:hover{
+    background-color: rgba(59, 59, 59, 0.75);
+    box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 0.75);
+    -webkit-box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 0.75);
+    -moz-box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 0.75);
+}
+
+.btn_tran:hover{
+    background-color: rgba(59, 59, 59, 0.75);
+    box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 1.75);
+    -webkit-box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 0.75);
+    -moz-box-shadow: 10px 10px 31px 0px rgba(59, 59, 59, 0.75);
+
+}
