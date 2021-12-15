@@ -14,6 +14,7 @@ export const initInstance = async () => {
     } else {
         provider = await getValidProvider();
         web3Instance = new Web3(provider);
+        return web3Instance;
     }
 }
 
